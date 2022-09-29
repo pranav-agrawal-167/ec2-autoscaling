@@ -1,7 +1,4 @@
 # ec2-autoscaling
-Autoscale ec2 instances based on computation load
-
-# Autoscaling
 
 ## 1. Problem Statement
 We have been given an AMI(Amazon Machine Image) that contains an image recognition model
@@ -22,3 +19,6 @@ Multiple images can then be processed parallely thus providing a better response
 
 ## 4. Gif demonstrating our Autoscaling of instances based on the load
 <img src="AutoScaling.gif" width=800><br>
+
+## 5. Command to run the workload generator file:-
+python3 workload-generator.py --num_request 100 --url "web tier url(with http)" --image_folder "path to the dataset"
