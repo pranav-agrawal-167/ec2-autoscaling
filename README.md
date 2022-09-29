@@ -18,7 +18,7 @@ Multiple images can then be processed parallely thus providing a better response
 
 ## 3. Architecture
 
-<img src="Architecture.PNG" width=800><br>
+<img src="Architecture.png" width=800><br>
 
 ## 4. Gif demonstrating our Autoscaling of instances based on the load
 <img src="AutoScaling.gif" width=800><br>
